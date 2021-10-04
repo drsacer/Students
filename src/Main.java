@@ -7,6 +7,7 @@ public class Main {
     public static void main(String[] args) {
         makeDBConnection("test_karlo.db");
         loadStudents();
+        System.out.println();
     }
 
     public static void makeDBConnection(String fileName) {
